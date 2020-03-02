@@ -103,23 +103,23 @@ The `color` prop changes the highlight color of the text field when focused.
 
 {{"demo": "pages/components/text-fields/CustomizedInputBase.js", "bg": true}}
 
-👑 If you are looking for inspiration, you can check [MUI Treasury's customization examples](https://mui-treasury.com/components/text-field).
+👑如果您还在寻找灵感，您可以看看 [MUI Treasury 特别定制的一些例子](https://mui-treasury.com/components/text-field)。
 
 ## 局限性
 
 ### Shrink
 
-The input label "shrink" state isn't always correct. The input label is supposed to shrink as soon as the input is displaying something. In some circumstances, we can't determine the "shrink" state (number input, datetime input, Stripe input). You might notice an overlap.
+输入标签 "shrink" 状态并不总是正确的。 输入标签应在输入显示内容时立即收缩。 在某些情况下, 我们无法确定 "shrink" 状态 (数字输入、日期时间输入、条带输入)。 您可能会注意到重叠。
 
-![shrink](/static/images/text-fields/shrink.png)
+![缩小](/static/images/text-fields/shrink.png)
 
-To workaround the issue, you can force the "shrink" state of the label.
+若要解决此问题, 您可以强制标签的 "shrink" 状态。
 
 ```jsx
 <TextField InputLabelProps={{ shrink: true }} />
 ```
 
-or
+或
 
 ```jsx
 <InputLabel shrink>计数</InputLabel>
@@ -131,13 +131,13 @@ The floating label is absolutely positioned, it won't impact the layout of the p
 
 ## 与第三方 input 库的整合
 
-You can use third-party libraries to format an input. You have to provide a custom implementation of the `<input>` element with the `inputComponent` property.
+您可以使用第三方库格式化输入。 您必须提供一个带有 `inputComponent` 属性的 `<input>` 元素的自定义实现。
 
-The following demo uses the [react-text-mask](https://github.com/text-mask/text-mask) and [react-number-format](https://github.com/s-yadav/react-number-format) libraries. The same concept could be applied to [e.g. react-stripe-element](https://github.com/mui-org/material-ui/issues/16037).
+下面的演示使用 [react-text-mask](https://github.com/text-mask/text-mask)和 [react-number-format](https://github.com/s-yadav/react-number-format) 库。 同样的概念可以适用于 [这个例子：react-stripe-element](https://github.com/mui-org/material-ui/issues/16037)。
 
 {{"demo": "pages/components/text-fields/FormattedInputs.js"}}
 
-The provided input component should handle the `inputRef` property. The property should be called with a value that implements the following interface:
+提供的输入组件应该处理 `inputRef` 属性。 The property should be called with a value that implements the following interface:
 
 ```ts
 interface InputElement {
@@ -199,5 +199,5 @@ In order for the text field to be accessible, **the input should be linked to th
 对于更高级的用例，您可以利用：
 
 - [formik-material-ui](https://github.com/stackworx/formik-material-ui) Bindings for using Material-UI with [formik](https://jaredpalmer.com/formik).
-- [redux-form-material-ui](https://github.com/erikras/redux-form-material-ui) Bindings for using Material UI with [Redux Form](https://redux-form.com/).
-- [mui-rff](https://github.com/lookfirst/mui-rff) Bindings for using Material UI with [React Final Form](https://final-form.org/react).
+- [redux-form-material-ui](https://github.com/erikras/redux-form-material-ui) Bindings for using Material-UI with [Redux Form](https://redux-form.com/).
+- [mui-rff](https://github.com/lookfirst/mui-rff) Bindings for using Material-UI with [React Final Form](https://final-form.org/react).
