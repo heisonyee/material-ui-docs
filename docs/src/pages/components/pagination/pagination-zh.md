@@ -23,7 +23,7 @@ components: Pagination, PaginationItem
 
 {{"demo": "pages/components/pagination/PaginationSize.js"}}
 
-## Buttons
+## Buttons（按钮）
 
 You can optionally enable first-page and last-page buttons, or disable the previous-page and next-page buttons.
 
