@@ -18,7 +18,7 @@
   "usageDescr": "Material-UIコンポーネントは追加の設定なしで機能し、グローバルスコープを汚染しません。",
   "usageButton": "ドキュメントを探索する",
   "themes": "プレミアムテーマ",
-  "themesDescr": "Take your project to the next level with premium themes from our official marketplace – all built on Material-UI.",
+  "themesDescr": "Take your project to the next level with premium themes from our store – all built on Material-UI.",
   "themesButton": "テーマを見る",
   "whosUsing": "誰がMaterial-UIを利用してますか？",
   "joinThese": "この素晴らしい団体に参加しましょう！",
@@ -221,12 +221,17 @@
     "/styles": "スタイル",
     "/styles/basics": "基本",
     "/styles/advanced": "高度な機能",
-    "https://themes.material-ui.com/": "プレミアムテーマ",
+    "https://material-ui.com/store/": "Store",
     "/components/material-icons": "マテリアルアイコン（Material Icons）",
     "/components/textarea-autosize": "テキストエリアの自動サイズ調整",
     "/components/rating": "レート",
     "/components/skeleton": "スケルトン",
     "/components/tree-view": "ツリービュー (Tree View)",
-    "/customization/density": "密度(Density)"
+    "/customization/density": "密度(Density)",
+    "/components/button-group": "Button Group",
+    "/components/floating-action-button": "Floating Action Button",
+    "/components/backdrop": "Backdrop",
+    "/components/alert": "Alert",
+    "/components/pagination": "Pagination"
   }
 }
