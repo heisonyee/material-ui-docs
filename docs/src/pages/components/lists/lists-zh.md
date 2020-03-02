@@ -3,7 +3,7 @@ title: React List（列表）组件
 components: Collapse, Divider, List, ListItem, ListItemAvatar, ListItemIcon, ListItemSecondaryAction, ListItemText, ListSubheader
 ---
 
-# Lists 列表
+# List 列表
 
 <p class="description">列表是对文本或图像的连续、垂直的索引。</p>
 
@@ -67,7 +67,7 @@ The checkbox is the primary action and the state indicator for the list item. Th
 
 {{"demo": "pages/components/lists/CheckboxListSecondary.js", "bg": true}}
 
-### Switch
+### Switch （开关）
 
 该开关是辅助操作和单独的目标。
 
@@ -95,4 +95,4 @@ The use of [react-window](https://github.com/bvaughn/react-window) when possible
 
 ## 个性化
 
-👑 If you are looking for inspiration, you can check [MUI Treasury's customization examples](https://mui-treasury.com/components/menu-list).
+👑如果您还在寻找灵感，您可以看看 [MUI Treasury 特别定制的一些例子](https://mui-treasury.com/components/menu-list)。
