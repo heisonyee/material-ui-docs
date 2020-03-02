@@ -13,7 +13,7 @@ components: TreeView、TreeItem
 
 {{"demo": "pages/components/tree-view/FileSystemNavigator.js"}}
 
-## Multi selection
+## 複数選択
 
 Tree views also support multi selection.
 
@@ -47,13 +47,13 @@ const data = {
 
 {{"demo": "pages/components/tree-view/RecursiveTreeView.js", "defaultCodeOpen": false}}
 
-## Customized tree view
+## カスタマイズされたツリービュー
 
-### Custom icons, border and animation
+### カスタムアイコン、ボーダーとアニメーション
 
 {{"demo": "pages/components/tree-view/CustomizedTreeView.js"}}
 
-### Gmail clone
+### Gmailクローン
 
 {{"demo": "pages/components/tree-view/GmailTreeView.js"}}
 
