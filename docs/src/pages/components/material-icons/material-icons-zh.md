@@ -5,7 +5,7 @@ components: Icon, SvgIcon
 
 # Material Icons 材料图标
 
-<p class="description">1,100+ React Material icons ready to use from the official website.</p>
+<p class="description">可以从官方网站上使用超过1,100个React Material图标。</p>
 
 The following npm package, [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons), includes the 1,100+ official [Material icons](https://material.io/tools/icons/?style=baseline) converted to [`SvgIcon`](/api/svg-icon/) components.
 
