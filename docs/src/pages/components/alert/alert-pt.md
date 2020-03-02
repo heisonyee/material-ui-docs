@@ -21,7 +21,7 @@ Você pode usar o componente `AlertTitle` para exibir um título formatado acima
 
 {{"demo": "pages/components/alert/DescriptionAlerts.js"}}
 
-## Actions
+## Ações
 
 An alert can have an action, such as a close or undo button. It is rendered after the message, at the end of the alert.
 
