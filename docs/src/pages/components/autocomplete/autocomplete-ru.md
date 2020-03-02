@@ -12,7 +12,7 @@ components: TextField, Popper, Autocomplete
 1. Значение для текстового поля должно быть выбрано из предопределенного набора допустимых значений, например, поле местоположения должно содержать действительное имя местоположения: [поле со списком](#combo-box).
 2. Текстовое поле может содержать любое произвольное значение, но целесообразно предлагать пользователю возможные значения. Например, поле поиска может предлагать аналогичные или предыдущие поиски, чтобы сэкономить время пользователя: [free solo](#free-solo).
 
-## Ком-Бог
+## Комбо-Бокс
 
 Значение должно быть выбрано из предопределенного набора допустимых значений.
 
@@ -30,21 +30,21 @@ components: TextField, Popper, Autocomplete
 
 {{"demo": "pages/components/autocomplete/CountrySelect.js"}}
 
-## Бесплатное соло
+## Произвольное значение
 
-Set `freeSolo` to true so the textbox can contain any arbitrary value. The prop is designed to cover the primary use case of a search box with suggestions, e.g. Google search.
+Установите для `freeSolo` значение true, чтобы текстовое поле могло содержать любое произвольное значение. Это свойство предназначено для использования в качестве поискового окна с подсказками, например как поиск Google.
 
-However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clearning the selected value).
+However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clear the selected value).
 
 {{"demo": "pages/components/autocomplete/FreeSolo.js"}}
 
-### Helper message
+### Вспомогательное сообщение
 
-Sometimes you want to make explicit to the user that he/she can add whatever value he/she wants. The following demo adds a last option: `Add "YOUR SEARCH"`.
+Если вы хотите четко указать пользователю, что он/она может добавить любое значение. Следующее демо добавляет последний вариант: `Add "YOUR SEARCH"`.
 
 {{"demo": "pages/components/autocomplete/FreeSoloCreateOption.js"}}
 
-You could also display a dialog when the user wants to add a new value.
+Вы также можете показать диалоговое окно, если пользователь хочет добавить новое значение.
 
 {{"demo": "pages/components/autocomplete/FreeSoloCreateOptionDialog.js"}}
 
