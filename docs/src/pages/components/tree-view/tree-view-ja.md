@@ -9,9 +9,17 @@ components: TreeView、TreeItem
 
 ツリー・ビューを使用して、フォルダおよびファイルを表示するファイル・システム・ナビゲータを表すことができます。フォルダを表すアイテムを展開すると、フォルダの内容 (ファイル、フォルダ、またはその両方) が表示されます。
 
+## Basic tree view
+
 {{"demo": "pages/components/tree-view/FileSystemNavigator.js"}}
 
-## Controlled
+## Multi selection
+
+Tree views also support multi selection.
+
+{{"demo": "pages/components/tree-view/MultiSelectTreeView.js"}}
+
+### Controlled tree view
 
 The tree view also offers a controlled API.
 
@@ -45,7 +53,7 @@ const data = {
 
 {{"demo": "pages/components/tree-view/CustomizedTreeView.js"}}
 
-### Gmailクローン
+### Gmail clone
 
 {{"demo": "pages/components/tree-view/GmailTreeView.js"}}
 
