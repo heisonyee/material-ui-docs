@@ -51,7 +51,7 @@ export default function PlainCssButton() {
 
 ### Controlling priority ⚠️
 
-**Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
+**Hinweis:** JSS fügt seine Styles am unteren Rand von `<head>` ein. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
 import { StylesProvider } from '@material-ui/core/styles';
@@ -139,7 +139,7 @@ export default function GlobalCssButton() {
 
 ### Controlling priority ⚠️
 
-**Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
+**Hinweis:** JSS fügt seine Styles am unteren Rand von `<head>` ein. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
 import { StylesProvider } from '@material-ui/core/styles';
@@ -365,7 +365,7 @@ export default function CssModulesButton() {
 
 ### Controlling priority ⚠️
 
-**Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
+**Hinweis:** JSS fügt seine Styles am unteren Rand von `<head>` ein. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
 import { StylesProvider } from '@material-ui/core/styles';
@@ -459,7 +459,7 @@ export default function EmotionCSS() {
 
 ### Controlling priority ⚠️
 
-**Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
+**Hinweis:** JSS fügt seine Styles am unteren Rand von `<head>` ein. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
 import { StylesProvider } from '@material-ui/core/styles';
