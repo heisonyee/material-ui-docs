@@ -3,7 +3,7 @@ title: Pagination React component
 components: Pagination, PaginationItem
 ---
 
-# Pagination
+# Paginação
 
 <p class="description">The Pagination component enables the user to select a specific page from a range of pages.</p>
 
