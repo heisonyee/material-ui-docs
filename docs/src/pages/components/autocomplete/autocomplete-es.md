@@ -20,11 +20,11 @@ El valor debe elegirse de un conjunto predefinido de valores permitidos.
 
 ### Playground
 
-Each of the following examples demonstrate one feature of the Autocomplete component.
+Cada uno de los siguientes ejemplos demuestran una característica del componente Autocompletado.
 
 {{"demo": "pages/components/autocomplete/Playground.js"}}
 
-### Country select
+### Selección de País
 
 Choose one country between 248.
 
@@ -32,9 +32,9 @@ Choose one country between 248.
 
 ## Free solo
 
-Set `freeSolo` to true so the textbox can contain any arbitrary value. The prop is designed to cover the primary use case of a search box with suggestions, e.g. Google search.
+Setear `freeSolo` a true, para que el cuadro de texto pueda contener cualquier valor arbitrario. La propiedad está diseñada para cubrir el principal caso de uso de una caja de búsqueda con sugerencias, ej: Google Search.
 
-However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clearning the selected value).
+However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clear the selected value).
 
 {{"demo": "pages/components/autocomplete/FreeSolo.js"}}
 
