@@ -6,7 +6,7 @@ Da der Umfang der Probleme, die Material-UI löst, begrenzt ist, versuchen wir, 
 
 ## Design-Ressourcen
 
-- **Sketch**: [Sketch for Material-UI](https://themes.material-ui.com/themes/sketch-react/) — A large UI kit with over 1,500 handcrafted Material-UI's symbols 💎.
+- **Sketch**: [Sketch for Material-UI](https://material-ui.com/store/item/sketch-react/) — A large UI kit with over 1,500 handcrafted Material-UI's symbols 💎.
 - **Figma**: 
   - https://material.5ly.co/ für Material-UI von Fively Team.
   - https://ui-kit.co/ ein Starter Kit für Ihr Material Design 2 Projekt.
@@ -50,8 +50,9 @@ Dies ist eine Sammlung von Drittanbieterprojekten, die Material-UI erweitern.
 ### Formulare
 
 - [formik-material-ui](https://github.com/stackworx/formik-material-ui) Bindings for using Material-UI with [formik](https://jaredpalmer.com/formik).
-- [redux-form-material-ui](https://github.com/erikras/redux-form-material-ui) Bindings for using Material UI with [Redux Form](https://redux-form.com/).
-- [mui-rff](https://github.com/lookfirst/mui-rff) Bindings for using Material UI with [React Final Form](https://final-form.org/react).
+- [redux-form-material-ui](https://github.com/erikras/redux-form-material-ui) Bindings for using Material-UI with [Redux Form](https://redux-form.com/).
+- [mui-rff](https://github.com/lookfirst/mui-rff) Bindings for using Material-UI with [React Final Form](https://final-form.org/react).
+- [data-driven-forms MUI mapper](https://github.com/data-driven-forms/react-forms/tree/master/packages/mui-component-mapper) Bindings for using Material-UI with [Data Driven Forms](https://data-driven-forms.org/).
 
 ### Carousel
 
