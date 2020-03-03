@@ -23,37 +23,37 @@ Você pode usar o componente `AlertTitle` para exibir um título formatado acima
 
 ## Ações
 
-An alert can have an action, such as a close or undo button. It is rendered after the message, at the end of the alert.
+Um alerta pode conter uma ação, como um botão de fechar ou desfazer. É renderizado depois da mensagem na parte final do alerta.
 
-If an `onClose` callback is provided and no `action` prop is set, a close icon is displayed. The `action` prop can be used to provide an alternative action, for example using a Button or IconButton.
+Se um `onClose` callback é dado e um atributo `action` é passado, um ícone de fechar é exibido. O atributo `action` pode ser usado para fornecer uma ação alternativa, por exemplo usando um Button ou IconButton.
 
 {{"demo": "pages/components/alert/ActionAlerts.js"}}
 
-### Transition
+### Transição
 
-You can use a [transition component](/components/transitions/) such as `Collapse` to transition the appearance of the alert.
+Você pode utilizar um [transition component](/components/transitions/) como `Collapse` para realizar uma transição na aparência do alerta.
 
 {{"demo": "pages/components/alert/TransitionAlerts.js"}}
 
 ## Ícones
 
-The `icon` prop allows you to add an icon to the beginning of the alert component. This will override the default icon for the specified severity.
+O atributo `icon` permite que você adicione um ícone no início do componente de alerta. Isto substituirá o ícone padrão de acordo com a gravidade especificada.
 
-You can change the default severity to icon mapping with the `iconMapping` prop. This can be defined globally using [theme customization](/customization/globals/#default-props).
+Você pode alterar a gravidade padrão para mapeamento de ícones com o atributo `iconMapping`. Isto pode ser definido globalmente utilizando [theme customization](/customization/globals/#default-props).
 
-Setting the icon prop to false will remove the icon altogether.
+Definir o atributo ícone como falso removerá o ícone completamente.
 
 {{"demo": "pages/components/alert/IconAlerts.js"}}
 
 ## Variantes
 
-Two additional variants are available – outlined, and filled:
+Duas variantes adicionais estão disponíveis – delineadas e preenchidas:
 
 ### Outlined
 
 {{"demo": "pages/components/alert/OutlinedAlerts.js"}}
 
-### Filled
+### Preenchido
 
 {{"demo": "pages/components/alert/FilledAlerts.js"}}
 
