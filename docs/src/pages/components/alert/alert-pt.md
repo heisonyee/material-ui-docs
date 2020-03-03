@@ -57,13 +57,13 @@ Duas variantes adicionais estão disponíveis – delineadas e preenchidas:
 
 {{"demo": "pages/components/alert/FilledAlerts.js"}}
 
-## Toast
+## Aviso na tela
 
-You can use the Snackbar to [display a toast](/components/snackbars/#customized-snackbars) with the Alert.
+Você pode usar o componente SnackBar para [exibir um aviso na tela](/components/snackbars/#customized-snackbars) com o componente Alert.
 
 ## Cor
 
-The `color` prop will override the default color for the specified severity.
+A propriedade `color` substituirá a cor padrão para a gravidade especificada.
 
 {{"demo": "pages/components/alert/ColorAlerts.js"}}
 
@@ -71,8 +71,8 @@ The `color` prop will override the default color for the specified severity.
 
 (WAI-ARIA: https://www.w3.org/TR/wai-aria-practices/#alert)
 
-When the component is dynamically displayed, the content is automatically announced by most screen readers. At this time, screen readers do not inform users of alerts that are present when the page loads.
+Quando o componente é exibido de forma dinâmica, o conteúdo é automaticamente anunciado pela maioria dos leitores de tela. No momento, os leitores de tela não informam aos usuários sobre alertas que estão presentes quando a página carrega.
 
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (for example the visible text), or is included through alternative means, such as additional hidden text.
+O uso de cores para adicionar significado apenas fornece uma indicação visual, que não vai ser transmitida para usuários de tecnologias assistivas, como leitores de tela. Certifique-se de que a informação indicada pela cor seja clara a partir do próprio próprio conteúdo (por exemplo, o texto visível), ou esteja incluída através de meios alternativos, como um texto oculto adicional.
 
-Actions must have a tab index of 0 so that they can be reached by keyboard-only users.
+As ações devem ter um índice de tabulação igual a 0 para que possam ser alcançadas por usuários que usam apenas o teclado.
