@@ -21,7 +21,7 @@ components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Checkboxes with FormGroup
+## 使用FromGroup控制多个Checkbox
 
 `FormGroup` 会提供相对简单的 API 对选择控件进行分组。
 
@@ -33,7 +33,7 @@ components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Customized checkbox
+## 自定义的复选框
 
 以下是自定义此组件的一个示例。 您可以在[重写文档页](/customization/components/)中了解有关此内容的更多信息。
 
