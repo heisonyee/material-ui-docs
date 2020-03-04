@@ -11,17 +11,17 @@ components: Slider
 
 - 📦 [22 kB gzipped](/size-snapshot) (but only +8 kB when used together with other Material-UI components).
 
-## Continuous sliders
+## 连续值滑块
 
-Continuous sliders allow users to select a value along a subjective range.
+用户可以使用连续值滑块从给定范围内选择某一数值。
 
 {{"demo": "pages/components/slider/ContinuousSlider.js"}}
 
-## Discrete sliders
+## 离散值滑块
 
 Discrete sliders can be adjusted to a specific value by referencing its value indicator. By order of demos:
 
-You can generate a mark for each step with `marks={true}`.
+在横轴上标记可选数值的位置：`marks={true}`
 
 {{"demo": "pages/components/slider/DiscreteSlider.js"}}
 
@@ -45,7 +45,7 @@ You can restrict the selectable values to those provided with the `marks` prop w
 
 ### Label always visible
 
-You can force the thumb label to be always visible with `valueLabelDisplay="on"`.
+数值标签始终可见： `valueLabelDisplay="on"`
 
 {{"demo": "pages/components/slider/DiscreteSliderLabel.js"}}
 
@@ -61,7 +61,7 @@ In this example an input allows a discrete value to be set.
 
 {{"demo": "pages/components/slider/InputSlider.js"}}
 
-## Customized sliders
+## 自定义滑块
 
 以下是自定义组件的一些例子。 您可以在[重写文档页面](/customization/components/)中了解更多有关此内容的信息。
 
