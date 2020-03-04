@@ -9,39 +9,63 @@ components: Slider
 
 [滑块](https://material.io/design/components/sliders.html) 反映了条形图上的一系列值，用户可以从中选择单个值。 滑块组件适用于调节设备音量、调整屏幕亮度，或者改变图像滤镜的强度。
 
-- 📦 [22 kB gzipped](/size-snapshot) (but only 8 kB without @material-ui/styles).
+- 📦 [22 kB gzipped](/size-snapshot) (but only +8 kB when used together with other Material-UI components).
 
-## 离散值滑块
+## Continuous sliders
+
+Continuous sliders allow users to select a value along a subjective range.
+
+{{"demo": "pages/components/slider/ContinuousSlider.js"}}
+
+## Discrete sliders
 
 Discrete sliders can be adjusted to a specific value by referencing its value indicator. By order of demos:
 
-1. 在横轴上标记可选数值的位置：`marks={true}`
-2. You can change the default step increment.
-3. You can have custom marks by providing a rich array to the `marks` prop.
-4. You can restrict the selectable values to those provided with the `marks` prop with `step={null}`.
-5. 数值标签始终可见： `valueLabelDisplay="on"`
+You can generate a mark for each step with `marks={true}`.
 
 {{"demo": "pages/components/slider/DiscreteSlider.js"}}
 
-## 自定义滑块
+### Small steps
+
+You can change the default step increment.
+
+{{"demo": "pages/components/slider/DiscreteSliderSteps.js"}}
+
+### Custom marks
+
+You can have custom marks by providing a rich array to the `marks` prop.
+
+{{"demo": "pages/components/slider/DiscreteSliderMarks.js"}}
+
+### Restricted values
+
+You can restrict the selectable values to those provided with the `marks` prop with `step={null}`.
+
+{{"demo": "pages/components/slider/DiscreteSliderValues.js"}}
+
+### Label always visible
+
+You can force the thumb label to be always visible with `valueLabelDisplay="on"`.
+
+{{"demo": "pages/components/slider/DiscreteSliderLabel.js"}}
+
+## Range slider
+
+The slider can be used to set the start and end of a range by supplying an array of values to the `value` prop.
+
+{{"demo": "pages/components/slider/RangeSlider.js"}}
+
+## Slider with input field
+
+In this example an input allows a discrete value to be set.
+
+{{"demo": "pages/components/slider/InputSlider.js"}}
+
+## Customized sliders
 
 以下是自定义组件的一些例子。 您可以在[重写文档页面](/customization/components/)中了解更多有关此内容的信息。
 
 {{"demo": "pages/components/slider/CustomizedSlider.js"}}
-
-## 连续值滑块
-
-用户可以使用连续值滑块从给定范围内选择某一数值。
-
-{{"demo": "pages/components/slider/ContinuousSlider.js"}}
-
-## 双点滑块
-
-{{"demo": "pages/components/slider/RangeSlider.js"}}
-
-## 带有输入框的滑块
-
-{{"demo": "pages/components/slider/InputSlider.js"}}
 
 ## 纵向滑块
 
