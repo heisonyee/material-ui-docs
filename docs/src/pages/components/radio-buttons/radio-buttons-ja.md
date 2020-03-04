@@ -11,13 +11,15 @@ components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 
 ラジオボタンは、デフォルトで最も一般的に使用されるオプションで設定されています。
 
+## RadioGroup
+
 `RadioGroup` は、 `Radio` コンポーネントをグループ化するのに使用される便利なラッパーで、より簡単なAPIと、グループへの適切なキーボードアクセシビリティを提供します。
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## スタンドアロンラジオボタン
+## Standalone radio buttons
 
-`Radio` は、ラッパーなしでスタンドアロンでも使用できます。
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
