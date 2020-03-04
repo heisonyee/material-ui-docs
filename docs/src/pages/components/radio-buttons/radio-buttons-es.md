@@ -11,13 +11,15 @@ Usa [botones de radio](https://material.io/design/components/selection-controls.
 
 Radio buttons should have the most commonly used option selected by default.
 
+## RadioGroup
+
 `RadioGroup` is a helpful wrapper used to group `Radio` components that provides an easier API, and proper keyboard accessibility to the group.
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## Standalone Radio Buttons
+## Standalone radio buttons
 
-`Radio` can also be used standalone, without the wrapper.
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
