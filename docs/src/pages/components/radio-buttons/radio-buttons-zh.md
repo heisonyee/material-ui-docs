@@ -11,23 +11,25 @@ components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 
 默认情况下，单选按钮应该选择了最常用的选项。
 
+## RadioGroup
+
 `RadioGroup`适用于一组` Radio `，它提供相对简单的 API 并且能够使用键盘对该RadioGroup 进行控制。
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## 独立的单选按钮
+## Standalone radio buttons
 
-`Radio` 也可以单独使用，无需额外包装。
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
-## 放置标签
+## 标签放置
 
 你可以更改标签放置的位置:
 
 {{"demo": "pages/components/radio-buttons/FormControlLabelPosition.js"}}
 
-## 自定义单选框
+## Customized radios
 
 以下是自定义组件的一个示例。 您可以在[重写文档页](/customization/components/)中了解有关此内容的更多信息。
 
