@@ -87,7 +87,7 @@ yarn add @material-ui/styles
   +import { hexToRgb } from '@material-ui/core/styles';
   ```
 
-- Scope the [keyframes API](https://cssinjs.org/jss-syntax/#keyframes-animation). You should apply the following changes in your codebase.
+- Scope the [keyframes API](https://cssinjs.org/jss-syntax/#keyframes-animation). Você deve aplicar as seguintes alterações na sua base de código.
   Ele ajuda a isolar a lógica da animação:
 
   ```diff
@@ -109,7 +109,7 @@ yarn add @material-ui/styles
 ### Tema
 
 - O método` theme.palette.augmentColor () `não produz mais um efeito colateral em sua cor de entrada.
-  To use it correctly, you have to use the returned value.
+  Para usá-lo corretamente, agora você precisa usar o valor retornado.
 
   ```diff
   -const background = { main: color };
@@ -149,7 +149,7 @@ yarn add @material-ui/styles
   ```diff
     /**
      * Define o espaço entre o tipo` componente do item.
-     * It can only be used on a type `container` component.
+     * Só pode ser usado em um componente do tipo 'container'.
      */
   -  spacing: PropTypes.oneOf([0, 8, 16, 24, 32, 40]),
   +  spacing: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),
