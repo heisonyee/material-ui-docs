@@ -19,13 +19,13 @@ components: Switch, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/switches/SwitchLabels.js"}}
 
-## Switches with FormGroup
+## Schalter mit FormGroup
 
 `FormGroup` ist ein hilfreicher Wrapper zum Gruppieren von Auswahlsteuerungskomponenten, welcher eine einfachere API bietet. However, you are encouraged you to use [Checkboxes](/components/checkboxes/) instead if multiple related controls are required. (See: [When to use](#when-to-use)).
 
 {{"demo": "pages/components/switches/SwitchesGroup.js"}}
 
-## Customized switches
+## Anpasster Schalter
 
 Hier einige Beispiele zum Anpassen der Komponente. Mehr dazu erfahren Sie auf der [Überschreibungsdokumentationsseite](/customization/components/).
 
