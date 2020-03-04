@@ -43,7 +43,7 @@ Cuando comienzas a aprender Material-UI, puedes encontrar publicaciones en blogs
   - 💻 [The Course](https://click.linksynergy.com/deeplink?id=IVuPfk1F/Ow&mid=39197&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fimplement-high-fidelity-designs-with-material-ui-and-reactjs%2F)
 - **Cookbook**: Build modern-day applications by implementing Material Design principles in React, using Material-UI.
   
-  - 📘 [The book](https://www.amazon.com/gp/product/1789615224/)
+  - [El Libro](https://www.amazon.com/gp/product/1789615224/)
 
 [![cookbook](/static/blog/material-ui-v4-is-out/cookbook.png)](https://www.amazon.com/gp/product/1789615224/)
 
