@@ -3,7 +3,7 @@ title: Radio buttons React component
 components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 ---
 
-# Radio
+# Радиокнопка
 
 <p class="description">Radio buttons allow the user to select one option from a set.</p>
 
@@ -11,13 +11,15 @@ Use [radio buttons](https://material.io/design/components/selection-controls.htm
 
 Для радиокнопок наиболее часто используемый параметр должен быть выбран по умолчанию.
 
+## RadioGroup
+
 `RadioGroup` - это полезная обертка, используемая для группировки `компонентов Radio`, она обеспечивает более простой API и управление с клавиатуры.
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## Автономные радиокнопки
+## Standalone radio buttons
 
-`Радио` также можно использовать отдельно, без обертки.
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
