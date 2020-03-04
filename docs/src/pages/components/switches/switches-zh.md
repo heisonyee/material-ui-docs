@@ -19,13 +19,13 @@ components: Switch, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/switches/SwitchLabels.js"}}
 
-## Switches with FormGroup
+## 多个 Switch 情况下使用 FormGroup
 
 `FormGroup`提供相对简单的 API 对选择控件进行分组。 However, you are encouraged you to use [Checkboxes](/components/checkboxes/) instead if multiple related controls are required. (See: [When to use](#when-to-use)).
 
 {{"demo": "pages/components/switches/SwitchesGroup.js"}}
 
-## Customized switches
+## 自定义样式开关
 
 这是一些自定义样式开关的例子 您可以在[样式重写文档页](/customization/components/)中了解有关此内容的更多信息。
 
