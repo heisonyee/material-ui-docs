@@ -100,7 +100,7 @@ In the event that you need to lock certain tag so that they can't be removed in 
 
 {{"demo": "pages/components/autocomplete/FixedTags.js"}}
 
-### Checkboxes
+### Cases à cocher
 
 {{"demo": "pages/components/autocomplete/CheckboxesTags.js"}}
 
