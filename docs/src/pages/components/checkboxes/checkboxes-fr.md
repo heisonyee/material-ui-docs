@@ -11,13 +11,17 @@ components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 
 Si vous avez plusieurs options dans une liste, vous pouvez conserver de l'espace en utilisant des cases à cocher au lieu d'interrupteurs d'activation / désactivation. Si vous n'avez qu'une seule option, évitez d’utiliser une case à cocher et utilisez plutôt un interrupteur on / off à la place.
 
+## Basic checkboxes
+
 {{"demo": "pages/components/checkboxes/Checkboxes.js"}}
 
-`La case à cocher` peut également être utilisée avec une description label grâce au composant `FormControlLabel`.
+## Checkbox with FormControlLabel
+
+`Checkbox` can be provided with a label thanks to the `FormControlLabel` component.
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Cases à cocher avec FormGroup
+## Checkboxes with FormGroup
 
 `FormGroup` est un wrapper utile utilisé pour regrouper les composants de contrôles de sélection et qui fournit une API plus simple.
 
@@ -29,7 +33,7 @@ Vous pouvez changer l'emplacement du label:
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Case à cocher personnalisée
+## Customized checkbox
 
 Voici un exemple de personnalisation du composant. Vous pouvez en savoir plus dans la [page de documentation des overrides](/customization/components/).
 
