@@ -3,7 +3,7 @@ title: Componente React para Botões de Opção
 components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 ---
 
-# Radio
+# Botões de opção
 
 <p class="description">Botões de opção permitem o usuário selecionar uma das opções de um conjunto.</p>
 
@@ -11,13 +11,15 @@ Use [botões de opção](https://material.io/design/components/selection-control
 
 Os botões de opção devem ter a opção mais comumente usada selecionada por padrão.
 
+## RadioGroup
+
 `RadioGroup` é um wrapper útil usado para agrupar componentes `Radio` fornecendo uma API mais fácil, e adequá a acessibilidade pelo teclado para o grupo.
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## Botões de Opção Independentes
+## Standalone radio buttons
 
-`Radio` também pode ser usado de forma independente, sem a necessidade de um wrapper.
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
