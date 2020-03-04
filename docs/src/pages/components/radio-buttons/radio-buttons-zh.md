@@ -29,7 +29,7 @@ components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/radio-buttons/FormControlLabelPosition.js"}}
 
-## Customized radios
+## 自定义单选框
 
 以下是自定义组件的一个示例。 您可以在[重写文档页](/customization/components/)中了解有关此内容的更多信息。
 
