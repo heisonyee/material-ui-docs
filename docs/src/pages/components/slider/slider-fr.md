@@ -61,7 +61,7 @@ In this example an input allows a discrete value to be set.
 
 {{"demo": "pages/components/slider/InputSlider.js"}}
 
-## Customized sliders
+## Curseurs personnalisés
 
 Here are some examples of customizing the component. You can learn more about this in the [overrides documentation page](/customization/components/).
 
