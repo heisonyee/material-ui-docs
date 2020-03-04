@@ -21,7 +21,7 @@ Se você tem várias opções aparecendo em uma lista, você pode economizar esp
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Checkboxes with FormGroup
+## Caixas de Seleção com FormGroup
 
 `FormGroup` é usado para agrupar componentes seletores para facilitar o uso da API.
 
@@ -33,7 +33,7 @@ Você pode alterar o posicionamento do rótulo:
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Customized checkbox
+## Caixa de seleção customizada
 
 Aqui está um exemplo de customização do componente. Você pode aprender mais sobre isso na [página de documentação de sobrescritas](/customization/components/).
 
