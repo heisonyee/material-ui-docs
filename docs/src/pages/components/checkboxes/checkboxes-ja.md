@@ -21,7 +21,7 @@ components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Checkboxes with FormGroup
+## FormGroupのCheckbox
 
 `FormGroup` は、より簡単なAPIを提供する選択コントロールコンポーネントをグループ化するために使用される便利なラッパーです。
 
@@ -33,7 +33,7 @@ components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Customized checkbox
+## カスタマイズされたチェックボックス
 
 コンポーネントのカスタマイズ例を次に示します。 詳細については、 [オーバーライドのドキュメントページ](/customization/components/)を参照してください。
 
