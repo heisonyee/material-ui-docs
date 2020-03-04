@@ -21,7 +21,7 @@ Si vous avez plusieurs options dans une liste, vous pouvez conserver de l'espace
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Checkboxes with FormGroup
+## Cases à cocher avec FormGroup
 
 `FormGroup` est un wrapper utile utilisé pour regrouper les composants de contrôles de sélection et qui fournit une API plus simple.
 
@@ -33,7 +33,7 @@ Vous pouvez changer l'emplacement du label:
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Customized checkbox
+## Case à cocher personnalisée
 
 Voici un exemple de personnalisation du composant. Vous pouvez en savoir plus dans la [page de documentation des overrides](/customization/components/).
 
