@@ -11,13 +11,15 @@ Verwenden Sie die [Optionsfelder](https://material.io/design/components/selectio
 
 Bei Optionsschaltflächen sollte die am häufigsten verwendete Option standardmäßig ausgewählt sein.
 
+## RadioGroup
+
 `RadioGroup` ist ein hilfreicher Wrapper zur Gruppierung von `Optionsfelder` Komponenten, der eine einfachere API und den richtigen Zugriff der Tastatur auf die Gruppe bietet.
 
 {{"demo": "pages/components/radio-buttons/RadioButtonsGroup.js"}}
 
-## Alleinstehende Schaltflächen
+## Standalone radio buttons
 
-Ein `Optionsfeld` kann auch ohne Wrapper einzeln verwendet werden.
+`Radio` can also be used standalone, without the RadioGroup wrapper.
 
 {{"demo": "pages/components/radio-buttons/RadioButtons.js"}}
 
