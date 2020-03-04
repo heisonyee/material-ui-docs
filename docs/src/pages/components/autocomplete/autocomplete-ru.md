@@ -58,7 +58,7 @@ However, if you intend to use it for a [combo box](#combo-box) like experience (
 
 ## `useAutocomplete`
 
-For advanced customization use cases, we expose a `useAutocomplete()` hook. It accepts almost the same options as the Autocomplete component minus all the props related to the rendering of JSX. The Autocomplete component uses this hook internally.
+Для продвинутой кастомизации используйте `useAutocomplete()` хук. It accepts almost the same options as the Autocomplete component minus all the props related to the rendering of JSX. The Autocomplete component uses this hook internally.
 
 ```jsx
 import useAutocomplete from '@material-ui/lab/useAutocomplete';
@@ -78,7 +78,7 @@ Head to the [Customized Autocomplete](#customized-autocomplete) section for a cu
 
 {{"demo": "pages/components/autocomplete/Asynchronous.js"}}
 
-### Google Maps place
+### Места Google Maps
 
 A customized UI for Google Maps Places Autocomplete.
 
@@ -94,13 +94,13 @@ Also known as tags, the user is allowed to enter more than one value.
 
 {{"demo": "pages/components/autocomplete/Tags.js"}}
 
-### Fixed options
+### Фиксированные опции
 
-In the event that you need to lock certain tag so that they can't be removed in the interface, you can set the chips disabled.
+В случае, если вам нужно зафиксировать определенный тег (так что он не мог быть удалён через интерфейс), вы можете установить chips в состояние disabled.
 
 {{"demo": "pages/components/autocomplete/FixedTags.js"}}
 
-### Checkboxes
+### Чекбоксы
 
 {{"demo": "pages/components/autocomplete/CheckboxesTags.js"}}
 
@@ -132,15 +132,21 @@ The component exposes a factory to create a filter method that can provided to t
 import { createFilterOptions } from '@material-ui/lab/Autocomplete';
 ```
 
-It supports the following options:
+### `createFilterOptions(config) => filterOptions`
+
+#### Аргументы
 
 1. `config` (*Object* [optional]): 
   - `config.ignoreAccents` (*Boolean* [optional]): Defaults to `true`. Remove diacritics.
   - `config.ignoreCase` (*Boolean* [optional]): Defaults to `true`. Lowercase everything.
   - `config.matchFrom` (*'any' | 'start'* [optional]): Defaults to `'any'`.
-  - `config.stringify` (*Func* [optional]): Defaults to `JSON.stringify`.
+  - `config.stringify` (*Func* [optional]): Controls how an option is converted into a string so that it can be matched against the input text fragment.
   - `config.trim` (*Boolean* [optional]): По умолчанию - `false`. Remove trailing spaces.
   - `config.limit` (*Number* [optional]): Default to null. Limit the number of suggested options to be shown. For example, if `config.limit` is `100`, only the first `100` matching options are shown. It can be useful if a lot of options match and virtualization wasn't set up.
+
+#### Возвращает
+
+`filterOptions`: the returned filter method can be provided directly to the `filterOptions` prop of the `Autocomplete` component, or the parameter of the same name for the hook.
 
 In the following demo, the options need to start with the query prefix:
 
@@ -170,7 +176,7 @@ const filterOptions = (options, { inputValue }) =>
 
 ## Виртуализация
 
-Search within 10,000 randomly generated options. The list is virtualized thanks to [react-window](https://github.com/bvaughn/react-window).
+Поиск в 10000 случайно сгенерированных опций. Список виртуализирован благодаря [реагирующему окну](https://github.com/bvaughn/react-window).
 
 {{"demo": "pages/components/autocomplete/Virtualize.js"}}
 
