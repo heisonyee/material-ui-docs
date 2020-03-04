@@ -21,7 +21,7 @@ Wenn in einer Liste mehrere Optionen erscheinen, können Sie durch Kontrollkäst
 
 {{"demo": "pages/components/checkboxes/CheckboxLabels.js"}}
 
-## Checkboxes with FormGroup
+## Kontrollkästchen mit FormGroup
 
 `FormGroup` ist ein hilfreicher Wrapper zum Gruppieren von Auswahlsteuerungskomponenten, welcher eine einfachere API bietet.
 
@@ -33,7 +33,7 @@ Sie können die Platzierung des Etiketts ändern:
 
 {{"demo": "pages/components/checkboxes/FormControlLabelPosition.js"}}
 
-## Customized checkbox
+## Angepasstes Kontrollkästchen
 
 Hier ist ein Beispiel zum Anpassen der Komponente. Mehr dazu erfahren Sie auf der [Überschreibungsdokumentationsseite](/customization/components/).
 
