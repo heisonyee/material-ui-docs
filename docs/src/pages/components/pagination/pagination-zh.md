@@ -41,13 +41,13 @@ components: Pagination, PaginationItem
 
 ## Router集成
 
-Pagination supports two approaches for Router integration, the `renderItem` prop:
+分页支持两种Router集成方法，`renderItem`属性：
 
 {{"demo": "pages/components/pagination/PaginationLink.js"}}
 
 ## `usePagination`
 
-For advanced customization use cases, we expose a `usePagination()` hook. It accepts almost the same options as the Pagination component minus all the props related to the rendering of JSX. The Pagination component uses this hook internally.
+作为一种高级定制方式，我们公开了一个 `usePagination()`hook。 它接受与分页组件几乎相同的选项，减去与JSX渲染有关的所有属性。 分页组件内部也是使用的这个hook。
 
 ```jsx
 import { usePagination } from '@material-ui/lab/Pagination';
@@ -59,8 +59,8 @@ import { usePagination } from '@material-ui/lab/Pagination';
 
 ### ARIA
 
-The root node has a role of "navigation" and aria-label "pagination navigation" by default. The page items have an aria-label that identifies the purpose of the item ("go to first page", "go to previous page", "go to page 1" etc.). You can override these using the `getItemAriaLabel` prop.
+默认情况下，根节点具有“导航”和aria标签“分页导航”的作用。 页面项目具有一个aria-label，用于标识项目的用途（“转到首页”，“转到上一页”，“转到页面1”等）。 你可以使用 `getItemAriaLabel`属性来覆盖它们。
 
-### Keyboard
+### 键盘
 
-The pagination items are in tab order, with a tabindex of "0".
+分页项目按标签顺序排列，标签索引为“0”。
