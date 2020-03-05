@@ -25,9 +25,15 @@ components: Radio, RadioGroup, FormControl, FormLabel, FormControlLabel
 
 ## 标签放置
 
-你可以更改标签放置的位置:
+You can change the placement of the label with the `FormControlLabel` component's `labelPlacement` prop:
 
-{{"demo": "pages/components/radio-buttons/FormControlLabelPosition.js"}}
+{{"demo": "pages/components/radio-buttons/FormControlLabelPlacement.js"}}
+
+## Show error
+
+In general, radio buttons should have a value selected by default. If this is not the case, you can display an error if no value is selected when the form is submitted:
+
+{{"demo": "pages/components/radio-buttons/ErrorRadios.js"}}
 
 ## 自定义单选框
 
