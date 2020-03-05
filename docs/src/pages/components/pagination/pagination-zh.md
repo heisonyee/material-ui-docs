@@ -1,13 +1,13 @@
 ---
-title: Pagination React component
+title: 分页React组件
 components: Pagination, PaginationItem
 ---
 
-# Pagination
+# 分页
 
-<p class="description">The Pagination component enables the user to select a specific page from a range of pages.</p>
+<p class="description">分页组件使用户能够从一系列页面中选择一个特定的页面。</p>
 
-## Basic pagination
+## 基础分页
 
 {{"demo": "pages/components/pagination/BasicPagination.js"}}
 
