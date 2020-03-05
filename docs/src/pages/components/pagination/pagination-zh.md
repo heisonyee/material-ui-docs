@@ -41,8 +41,6 @@ components: Pagination, PaginationItem
 
 ## 路由器集成
 
-分页支持两种路由器集成方法，`renderItem`属性：
-
 {{"demo": "pages/components/pagination/PaginationLink.js"}}
 
 ## `usePagination`
