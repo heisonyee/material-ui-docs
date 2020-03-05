@@ -25,9 +25,15 @@ Use [radio buttons](https://material.io/design/components/selection-controls.htm
 
 ## Расположение метки
 
-Расположение метки можно изменить:
+You can change the placement of the label with the `FormControlLabel` component's `labelPlacement` prop:
 
-{{"demo": "pages/components/radio-buttons/FormControlLabelPosition.js"}}
+{{"demo": "pages/components/radio-buttons/FormControlLabelPlacement.js"}}
+
+## Show error
+
+In general, radio buttons should have a value selected by default. If this is not the case, you can display an error if no value is selected when the form is submitted:
+
+{{"demo": "pages/components/radio-buttons/ErrorRadios.js"}}
 
 ## Customized radios
 
