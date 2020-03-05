@@ -41,8 +41,6 @@ Vous pouvez spécifier le nombre de chiffres à afficher de chaque côté de la 
 
 ## Intégration du routeur
 
-La pagination prend en charge deux approches pour l'intégration du routeur, la propriété `renderItem`:
-
 {{"demo": "pages/components/pagination/PaginationLink.js"}}
 
 ## `usePagination`
