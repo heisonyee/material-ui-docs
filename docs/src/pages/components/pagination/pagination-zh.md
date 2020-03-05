@@ -11,35 +11,35 @@ components: Pagination, PaginationItem
 
 {{"demo": "pages/components/pagination/BasicPagination.js"}}
 
-## Outlined pagination
+## 描边分页
 
 {{"demo": "pages/components/pagination/PaginationOutlined.js"}}
 
-## Rounded pagination
+## 圆角分页
 
 {{"demo": "pages/components/pagination/PaginationRounded.js"}}
 
-## Pagination size
+## 分页大小
 
 {{"demo": "pages/components/pagination/PaginationSize.js"}}
 
 ## Buttons（按钮）
 
-You can optionally enable first-page and last-page buttons, or disable the previous-page and next-page buttons.
+你可以选择启用第一页和最后一页按钮，或禁用上一页和下一页按钮。
 
 {{"demo": "pages/components/pagination/PaginationButtons.js"}}
 
-## Pagination ranges
+## 分页范围
 
-You can specify how many digits to display either side of current page with the `siblingRange` prop, and adjacent to the start and end page number with the `boundaryRange` prop.
+你可以使用`siblingRange`属性指定当前页面两侧显示的位数，并使用`boundaryRange`属性指定在起始页和结束页数旁边显示。
 
 {{"demo": "pages/components/pagination/PaginationRanges.js"}}
 
-## Controlled pagination
+## 受控分页
 
 {{"demo": "pages/components/pagination/PaginationControlled.js"}}
 
-## Router integration
+## Router集成
 
 Pagination supports two approaches for Router integration, the `renderItem` prop:
 
