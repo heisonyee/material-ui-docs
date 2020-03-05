@@ -15,7 +15,7 @@ components: Pagination, PaginationItem
 
 {{"demo": "pages/components/pagination/PaginationOutlined.js"}}
 
-## 圆角分页
+## 圆形分页
 
 {{"demo": "pages/components/pagination/PaginationRounded.js"}}
 
