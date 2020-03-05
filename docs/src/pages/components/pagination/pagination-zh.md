@@ -3,7 +3,7 @@ title: 分页React组件
 components: Pagination, PaginationItem
 ---
 
-# 分页
+# Pagination 分页
 
 <p class="description">分页组件使用户能够从一系列页面中选择一个特定的页面。</p>
 
