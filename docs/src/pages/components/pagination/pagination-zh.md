@@ -59,7 +59,7 @@ import { usePagination } from '@material-ui/lab/Pagination';
 
 ### ARIA
 
-默认情况下，根节点具有“导航”和aria标签“分页导航”的作用。 页面项目具有一个aria-label，用于标识项目的用途（“转到首页”，“转到上一页”，“转到页面1”等）。 你可以使用 `getItemAriaLabel`属性来覆盖它们。
+默认情况下，根节点具有“导航”和aria-label“分页导航”的作用。 页面项目具有一个aria-label，用于标识项目的用途（“转到第一页”，“转到上一页”，“转到页面1”等）。 你可以使用 `getItemAriaLabel`属性来覆盖它们。
 
 ### 键盘
 
