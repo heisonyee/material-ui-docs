@@ -1,12 +1,12 @@
-<h2 align="center">Material-UI's sponsors</h2>
+<h2 align="center">Material-UIのスポンサー</h2>
 
-The continued development and maintenance of Material-UI is made possible by these generous sponsors:
+Material-UI の継続的な開発や保守は、以下の寛大なスポンサーにより可能になりました:
 
-### Diamond 💎
+### ダイヤモンド 💎
 
-*3/3 slots available*
+*3 枠中 3 枠が参加可能です*
 
-### Gold 🏆
+### ゴールド 🏆
 
 <p style="display: flex; justify-content: center;">
   <a data-ga-event-category="sponsors" data-ga-event-action="logo" data-ga-event-label="tidelift" href="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=material_ui&utm_medium=referral&utm_campaign=homepage" rel="noopener sponsored" target="_blank" style="margin-right: 16px;"><img width="96" src="https://github.com/tidelift.png?size=96" alt="tidelift" title="Enterprise-ready open source software" /></a>
