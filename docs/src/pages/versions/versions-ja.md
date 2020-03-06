@@ -32,27 +32,27 @@ Material-UI は [Semantic Versioning 2.0.0](https://semver.org/) に従いバー
 
 一般的に、次のリリースサイクルが期待できます。
 
-- A **major** release every 12 months.
-- 1-3 **マイナー**各メジャーリリースのリリース。
-- **パッチ**毎週リリース（緊急のバグ修正のためいつでも）。
+- 12ヶ月ごとの **メジャー** リリース。
+- メジャーリリースごとに 1-3の **マイナー** リリース。
+- 毎週の **パッチ** リリース（緊急のバグ修正はいつでも）。
 
 ## リリーススケジュール
 
-| Date           | Version | Status   |
-|:-------------- |:------- |:-------- |
-| May 2018       | v1.0.0  | Released |
-| September 2018 | v3.0.0  | Released |
-| May 2019       | v4.0.0  | Released |
-| Q3 2020        | v5.0.0  | ⏳        |
+| Date        | Version | Status   |
+|:----------- |:------- |:-------- |
+| 2018年 5月    | v1.0.0  | Released |
+| 2018年 9月    | v3.0.0  | Released |
+| 2019年 5月    | v4.0.0  | Released |
+| 2020年 第3四半期 | v5.0.0  | ⏳        |
 
 
-You can follow the [milestones](https://github.com/mui-org/material-ui/milestones) for a more detailed overview.
+詳細な概要については [マイルストーン](https://github.com/mui-org/material-ui/milestones) をご覧ください。
 
-> ⚠️ **Disclaimer**: We operate in a dynamic environment, and things are subject to change. The information provided is intended to outline the general framework direction. It's intended for informational purposes only. We may decide to add/remove new items at any time depending on our capability to deliver while meeting our quality standards. The development, releases and timing of any features or functionality of Material-UI remains at the sole discretion of Material-UI. The roadmap does not represent a commitment, obligation or promise to deliver at any time.
+> ⚠️ **免責事項**: 我々は流動的な環境で事業を行っており、状況は変化する可能性があります。 提供される情報は、フレームワークの一般的な方向性を概説することを目的としています。 情報提供のみを目的とします。 We may decide to add/remove new items at any time depending on our capability to deliver while meeting our quality standards. The development, releases and timing of any features or functionality of Material-UI remains at the sole discretion of Material-UI. The roadmap does not represent a commitment, obligation or promise to deliver at any time.
 
 ## サポートポリシー
 
-Find details on the [supported versions](/getting-started/support/#supported-versions).
+詳細は [サポートされているバージョン](/getting-started/support/#supported-versions) をご覧ください。
 
 ## 廃止予定
 
