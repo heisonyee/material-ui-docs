@@ -9,13 +9,13 @@ components: TreeView, TreeItem
 
 As visualizações em árvore podem ser usadas para representar um navegador do sistema de arquivos que exibe pastas e arquivos, um item que representa uma pasta pode ser expandido para revelar o conteúdo da pasta, que pode ser arquivos, pastas ou ambos.
 
-## Basic tree view
+## Modo básico de exibição de árvore
 
 {{"demo": "pages/components/tree-view/FileSystemNavigator.js"}}
 
-## Multi selection
+## Seleção múltipla
 
-Tree views also support multi selection.
+Visualizações de árvore também suportam seleção múltipla.
 
 {{"demo": "pages/components/tree-view/MultiSelectTreeView.js"}}
 
