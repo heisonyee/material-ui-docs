@@ -65,7 +65,7 @@ Material-UI は [Semantic Versioning 2.0.0](https://semver.org/) に従いバー
 
 ### 廃止方針
 
-- Deprecated features are announced in the changelog, and when possible, with warnings at runtime.
+- 非推奨となった機能は変更ログで、可能であれば実行時に警告で告知します。
 - 廃止が発表された時、推奨されるアップデートの仕方が提供されます。
 - 廃止猶予期間中の安定したAPIの既存使用をサポートしているため、その期間中もコードは機能し続けます。
 - アプリの変更を必要とするピア依存の更新（React）は、メジャーリリースでのみ行われます。
