@@ -26,7 +26,7 @@ Each of the following examples demonstrate one feature of the Autocomplete compo
 
 ### Country select
 
-Choose one country between 248.
+Escolha um país entre 248.
 
 {{"demo": "pages/components/autocomplete/CountrySelect.js"}}
 
@@ -88,9 +88,9 @@ For this demo, we need to load the [Google Maps JavaScript](https://developers.g
 
 > ⚠️ Before you can start using the Google Maps JavaScript API, you must sign up and create a billing account.
 
-## Multiple values
+## Múltiplos valores
 
-Also known as tags, the user is allowed to enter more than one value.
+Também conhecidos como tags, o usuário pode inserir mais de um valor.
 
 {{"demo": "pages/components/autocomplete/Tags.js"}}
 
