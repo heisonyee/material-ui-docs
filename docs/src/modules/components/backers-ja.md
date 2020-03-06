@@ -19,4 +19,4 @@ Material-UI の継続的な開発や保守は、以下の寛大なスポンサ�
 
 ### もっとあります！
 
-See the full list of [our sponsors](/discover-more/backers/), and learn how you can contribute to the future of Material-UI.
+[全スポンサーのリスト](/discover-more/backers/)をご覧になり、どのように Material-UI の未来に貢献できるかを知りましょう。
