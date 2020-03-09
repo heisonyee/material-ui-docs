@@ -34,13 +34,13 @@ components: TextField, Popper, Autocomplete
 
 将 `freeSolo` 设置为true，以便在文本框中输入任意值。 Prop的设计是为了覆盖搜索框的主要用例，并提出建议，例如谷歌搜索。
 
-However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clear the selected value).
+然而，仍然存在着这种情况。 如果您打算将它用于一个 [组合框](#combo-box) (一个强化的选定元素版本)，我们建议设置 `selectOnFocus` (它帮助用户清除选定的值)。
 
 {{"demo": "pages/components/autocomplete/FreeSolo.js"}}
 
 ### 帮助信息
 
-Sometimes you want to make explicit to the user that he/she can add whatever value he/she wants. 以下的演示增加了一个最新的操作方式：`添加“你的搜索”`
+有时您想要向用户显示他/她可以添加自己想要的任何值。 以下的演示增加了一个最新的操作方式：`添加“你的搜索”`
 
 {{"demo": "pages/components/autocomplete/FreeSolo.js"}}
 
@@ -78,7 +78,7 @@ import useAutocomplete from '@material-ui/lab/useAutocomplete';
 
 {{"demo": "pages/components/autocomplete/disabledOptions.js"}}
 
-### Google Maps place
+### 谷歌地图位置
 
 A customized UI for Google Maps Places Autocomplete.
 
