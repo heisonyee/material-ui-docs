@@ -5,7 +5,7 @@ components: Button, ButtonGroup
 
 # Button groups（按钮组）
 
-<p class="description">The ButtonGroup component can be used to group related buttons.</p>
+<p class="description">ButtonGroup 组件可用于对相关按钮进行分组。</p>
 
 ## 基本的按钮组
 
@@ -15,7 +15,7 @@ components: Button, ButtonGroup
 
 {{"demo": "pages/components/button-group/GroupSizesColors.js"}}
 
-### Group orientation
+### 按钮组方向
 
 {{"demo": "pages/components/button-group/GroupOrientation.js"}}
 
