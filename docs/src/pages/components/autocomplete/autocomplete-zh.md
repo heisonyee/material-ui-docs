@@ -32,7 +32,7 @@ components: TextField, Popper, Autocomplete
 
 ## 免费工具
 
-将 `freeSolo` 设置为true，以便在文本框中输入任意值。 The prop is designed to cover the primary use case of a search box with suggestions, e.g. Google search.
+将 `freeSolo` 设置为true，以便在文本框中输入任意值。 Prop的设计是为了覆盖搜索框的主要用例，并提出建议，例如谷歌搜索。
 
 However, if you intend to use it for a [combo box](#combo-box) like experience (an enhanced version of a select element) we recommend setting `selectOnFocus` (it helps the user clear the selected value).
 
