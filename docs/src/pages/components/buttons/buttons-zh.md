@@ -44,7 +44,7 @@ You can remove the elevation with the `disableElevation` prop.
 
 {{"demo": "pages/components/buttons/OutlinedButtons.js"}}
 
-## Upload button
+## 上传按钮
 
 {{"demo": "pages/components/buttons/UploadButtons.js"}}
 
