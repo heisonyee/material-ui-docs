@@ -5,7 +5,7 @@ components: Pagination, PaginationItem
 
 # 分页
 
-<p class="description">分页组件使用户能够从一系列页面中选择一个特定的页面。</p>
+<p class="description">使用分页组件，用户能够从一系列页面中选择某个特定页面。</p>
 
 ## 基础分页
 
@@ -15,7 +15,7 @@ components: Pagination, PaginationItem
 
 {{"demo": "pages/components/pagination/PaginationOutlined.js"}}
 
-## 圆形分页
+## 圆角分页
 
 {{"demo": "pages/components/pagination/PaginationRounded.js"}}
 
@@ -23,15 +23,15 @@ components: Pagination, PaginationItem
 
 {{"demo": "pages/components/pagination/PaginationSize.js"}}
 
-## Buttons（按钮）
+## 按钮
 
-你可以选择启用第一页和最后一页按钮，或禁用上一页和下一页按钮。
+你可以选择启用首页和尾页按钮，或禁用上一页和下一页按钮。
 
 {{"demo": "pages/components/pagination/PaginationButtons.js"}}
 
 ## 分页范围
 
-你可以使用`siblingRange`属性指定当前页面两侧显示的位数，并使用`boundaryRange`属性指定在起始页和结束页数旁边显示。
+你可以使用`siblingRange`属性指定当前页面两侧显示的位数，并使用`boundaryRange`属性指定在起始页和结束页码旁边显示的位数。
 
 {{"demo": "pages/components/pagination/PaginationRanges.js"}}
 
@@ -45,7 +45,7 @@ components: Pagination, PaginationItem
 
 ## `usePagination`
 
-作为一种高级定制方式，我们公开了一个 `usePagination()`hook。 它接受与分页组件几乎相同的选项，减去与JSX渲染有关的所有属性。 分页组件内部也是使用的这个hook。
+针对高级定制应用场景，我们公开了一个`usePagination()` hook。 它支持的选项与分页组件大致相同，但不包括与JSX渲染有关的所有属性 。 分页组件内部也使用的是这个hook。
 
 ```jsx
 import { usePagination } from '@material-ui/lab/Pagination';
@@ -57,8 +57,8 @@ import { usePagination } from '@material-ui/lab/Pagination';
 
 ### ARIA
 
-默认情况下，根节点具有“导航”和aria-label“分页导航”的作用。 页面项目具有一个aria-label，用于标识项目的用途（“转到第一页”，“转到上一页”，“转到页面1”等）。 你可以使用 `getItemAriaLabel`属性来覆盖它们。
+默认情况下，根节点具有“导航”和aria-label“分页导航”的作用。 页面项目均具有aria-label，用于标识项目的用途（“转至首页”、“转至上一页”、“转到第1页”等）。 可以使用`getItemAriaLabel`属性改写这些值。
 
 ### 键盘
 
-分页项目按标签顺序排列，标签索引为“0”。
+分页项目按Tab键次序排列，tabindex为“0”。
