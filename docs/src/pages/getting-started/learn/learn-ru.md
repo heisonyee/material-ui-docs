@@ -1,6 +1,6 @@
 # Изучить Material-UI
 
-<p class="description">Новичок в Material-UI? Легко начать изучение если ты знаешь с чего начать! Это руководство поможет вам быстро начать работу.</p>
+<p class="description">Новичок в Material-UI? Легко начать изучение, если ты знаешь с чего начать! Это руководство поможет вам быстро начать работу.</p>
 
 Developers come to Material-UI from different backgrounds and with different learning styles. Whether you prefer a more theoretical or practical approach, we hope you’ll find this section helpful. Как и любая незнакомая технология, Material-UI имеет кривую обучения. Немного терепения и практики и вы скоро освоитесь.
 
