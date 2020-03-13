@@ -14,13 +14,13 @@ The widget is useful for setting the value of a single-line textbox in one of tw
 
 ## Combo box
 
-The value must be chosen from a predefined set of allowed values.
+O valor deve ser escolhido a partir de um conjunto predefinido de valores permitidos.
 
 {{"demo": "pages/components/autocomplete/ComboBox.js"}}
 
 ### Playground
 
-Each of the following examples demonstrate one feature of the Autocomplete component.
+Cada um dos exemplos a seguir demonstra uma funcionalidade do componente Autocomplet.
 
 {{"demo": "pages/components/autocomplete/Playground.js"}}
 
@@ -40,7 +40,7 @@ However, if you intend to use it for a [combo box](#combo-box) like experience (
 
 ### Helper message
 
-Sometimes you want to make explicit to the user that he/she can add whatever value he/she wants. The following demo adds a last option: `Add "YOUR SEARCH"`.
+Às vezes você quer tornar explícito ao usuário que ele pode adicionar qualquer valor que ele/ela quiser. The following demo adds a last option: `Add "YOUR SEARCH"`.
 
 {{"demo": "pages/components/autocomplete/FreeSoloCreateOption.js"}}
 
