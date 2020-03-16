@@ -21,7 +21,7 @@ El ancho de un container está limitado por el valor de la propiedad `maxWidth`.
 
 ## Fijo
 
-If you prefer to design for a fixed set of sizes instead of trying to accommodate a fully fluid viewport, you can set the `fixed` property. The max-width matches the min-width of the current breakpoint.
+Si prefiere diseñar para un conjunto de tamaños fijos en vez de tratar de acomodar un viewport totalmente fluido, puede establecer la propiedad `fixed`. El ancho máximo coincide con el ancho mínimo del punto de separación actual.
 
 {{"demo": "pages/components/container/FixedContainer.js", "iframe": true, "defaultCodeOpen": false}}
 
