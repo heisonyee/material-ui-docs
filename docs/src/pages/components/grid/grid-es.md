@@ -31,7 +31,7 @@ Esta función de transformación de la salida se puede personalizar [usando el t
 
 ## Grids fluidos
 
-Fluid grids use columns that scale and resize content. A fluid grid’s layout can use breakpoints to determine if the layout needs to change dramatically.
+El fluid grid usa columnas que escalan y redimencionan el contenido. Un layout de fluid grid puede usar separaciones para determinar si el layout necesita cambiar dramaticamente.
 
 ### Grid básica
 
@@ -53,7 +53,7 @@ Debajo de esta línea hay una demostración interactiva que permite explorar el 
 
 ## Auto-layout
 
-The Auto-layout makes the *items* equitably share the available space. That also means you can set the width of one *item* and the others will automatically resize around it.
+El Auto-layout (autodiseño) hace que los *items* compartan el espacio disponible equitativamente. That also means you can set the width of one *item* and the others will automatically resize around it.
 
 {{"demo": "pages/components/grid/AutoGrid.js", "bg": true}}
 
