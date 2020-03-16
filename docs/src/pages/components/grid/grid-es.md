@@ -53,7 +53,7 @@ Debajo de esta línea hay una demostración interactiva que permite explorar el 
 
 ## Auto-layout
 
-El Auto-layout (autodiseño) hace que los *items* compartan el espacio disponible equitativamente. That also means you can set the width of one *item* and the others will automatically resize around it.
+El Auto-layout (autodiseño) hace que los *items* compartan el espacio disponible equitativamente. Esto también quiere decir que puede establecer el ancho de un *item* y los otro se dimensionarán a partir de él.
 
 {{"demo": "pages/components/grid/AutoGrid.js", "bg": true}}
 
@@ -96,14 +96,14 @@ Existe una limitación con el margen negativo que utilizamos para implementar el
 
 ### white-space: nowrap;
 
-The initial setting on flex items is `min-width: auto`. It's causing a positioning conflict when the children is using `white-space: nowrap;`. You can experience the issue with:
+La configuración inicial en los elementos flex es `min-width: auto`. Esto causa un conflicto en el posicionamiento cuando el hijo está usando `white-space: nowrap;`. Puede experimentar este problema con: 
 
 ```jsx
 <Grid item xs>
   <Typography noWrap>
 ```
 
-In order for the item to stay within the container you need to set `min-width: 0`. In practice, you can set the `zeroMinWidth` property:
+Para que el item permanezca dentro del contenedor necesita establecer `min-width: 0`. En la practica, puede establecer la propiedad `zeroMinWidth`:
 
 ```jsx
 <Grid item xs zeroMinWidth>
